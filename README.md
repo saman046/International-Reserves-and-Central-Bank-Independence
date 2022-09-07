@@ -8,11 +8,11 @@ by Agustin Samano (2022)
 
 ## Structure
 
-The subfolder X contains the main source code.
+The subfolder Empirical_Analysis.do contains the file that uses data from dataJMP_September and reproduces the empirical analysis presented in Table 1. 
 
-The subfolder X contains some of the analysis of the model for certain parameters. It contains a julia script as well as the corresponding jupyter notebook. The scripts generate the figures and moments reported in the paper.
+The subfolder Quantitative_Analysis.jpynb contains the code with the quantitative analysis that reproduces tables 2-8.
 
-The subfolder X contains the figures generates by the scripts, as well as some of the calculated moments.
+It contains the corresponding jupyter notebook.
 
 ## Running the code
 
@@ -36,8 +36,11 @@ julia> notebook(dir=".")
 
 That should open a browser with Jupyter . Navigate to scripts to locate the notebooks.
 
-The notebook International Reserves and Central Bank Independence solves the model
+The notebook Quantitative_Analysis.jpynb solves the model.
 
 International_Reserves_and_Central_Bank_Independence.ipynb generates the simulations and associated moments.
 
-Associated with Jupyter each notebook, there is a Julia script (.jl) that can be run instead.
+Finally, NEW_FIGURES_SOURCEFINANCING.xlsx contains the figures presented in the appendix D. 
+
+To replicate these figures, use Final_graphs_tables.do and the corresponding data CB_Balance_Sheet_Database_Inflation_all.dta
+
